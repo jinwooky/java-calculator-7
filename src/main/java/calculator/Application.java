@@ -8,6 +8,7 @@ public class Application {
         Calculator calculator = new Calculator();
         String No_Space_Input = input.replaceAll("\\s+",""); // 문자열 공백제거
         calculator.semi_main(No_Space_Input);
+        System.out.println("test");
     }
 
 }
